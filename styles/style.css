@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
 
 :root {
-    --cor-primaria: #3F72AF;
     --cor-secundaria: #DBE2EF;
     --cor-terciaria: #93BFCF;
 
@@ -9,18 +8,27 @@
     --fonte-secundaria: 'Montserrat', sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
-    background-color: var(--cor-primaria);
+    background: linear-gradient(#000000, #9e00ff);
     color: var(--cor-secundaria);
 }
 
-.header__menu {
+.header__menu ul {
     display: flex;
-    text-decoration: none;
     font-family: var(--fonte-primaria);
     font-size: 1rem;
+    color: var(--cor-secundaria);
     gap: 60px;
     padding: 2% 20%;
+}
+
+.header__menu ul li a {
+    text-decoration: none;
+    color: var(--cor-secundaria);
 }
 
 .main-container {
@@ -103,6 +111,14 @@ body {
     transform: scale(1.1);
 }
 
+.certificates-container ul li a{
+    color: var(--cor-secundaria);
+    font-family: var(--fonte-secundaria);
+    font: 1rem;
+    text-decoration: none;
+    padding: 1rem;
+}
+
 footer {
     padding: 24px;
     color: var(--cor-secundaria);
@@ -110,29 +126,4 @@ footer {
     font-family: var(--fonte-secundaria);
     font-size: 1rem;
     font-weight: 400;
-}
-
-@media screen and (max-width: 1000px) {
-    .body {
-        align-items: center;
-    }
-
-    .header__menu {
-        display: none;
-    }
-
-    .home {
-        flex-direction: column-reverse;
-    }
-
-    .project {
-        flex-direction: column-reverse;
-        gap: 20px;
-    }
-
-    .project img {
-        width: 18rem;
-        padding: 0;
-    }
-
 }

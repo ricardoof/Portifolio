@@ -1,0 +1,24 @@
+@media screen and (max-width: 1000px) {
+    .body {
+        align-items: center;
+    }
+
+    .header__menu {
+        display: none;
+    }
+
+    .home {
+        flex-direction: column-reverse;
+    }
+
+    .project {
+        flex-direction: column-reverse;
+        gap: 20px;
+    }
+
+    .project img {
+        width: 18rem;
+        padding: 0;
+    }
+
+}
