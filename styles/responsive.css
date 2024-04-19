@@ -11,14 +11,18 @@
         flex-direction: column-reverse;
     }
 
+    .home__title {
+        text-align: center;
+    }
+
     .project {
         flex-direction: column-reverse;
         gap: 20px;
+        padding: 8%;
     }
 
     .project img {
         width: 18rem;
         padding: 0;
     }
-
 }
