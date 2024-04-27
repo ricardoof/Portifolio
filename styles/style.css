@@ -110,6 +110,13 @@ body {
     font-family: var(--fonte-secundaria);
 }
 
+.description p {
+    text-align: center;
+    color: #ff0000;
+    font-family: var(--fonte-secundaria);
+    padding: 1rem;
+}
+
 .certificates-container ul {
     padding-top: 5%;
 }
