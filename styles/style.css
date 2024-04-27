@@ -94,11 +94,20 @@ body {
     padding: 5%;
 }
 
+.project img:hover {
+    transform: scale(1.1);
+    transition: 250ms;
+}
+
 .description ul {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     text-align: center;
+}
+
+.description ul li {
+    font-family: var(--fonte-secundaria);
 }
 
 .certificates-container ul {
