@@ -91,7 +91,6 @@ body {
 .project img {
     border-radius: 10px;
     width: 25rem;
-    padding: 5%;
 }
 
 .project img:hover {
@@ -104,6 +103,7 @@ body {
     flex-direction: column;
     flex-wrap: wrap;
     text-align: center;
+    width: 20rem;
 }
 
 .description ul li {
@@ -112,7 +112,6 @@ body {
 
 .description p {
     text-align: center;
-    color: #ff0000;
     font-family: var(--fonte-secundaria);
     padding: 1rem;
 }
